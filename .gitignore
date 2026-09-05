@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+out/
+release/
+build/
+*.exe
+
+# runtime / user data
+data/
+.brix/
+*.log
+crash.log
+
+# protect-build 备份与字节码产物
+.backup-before-protect/
+*.jsc
+
+# misc
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
